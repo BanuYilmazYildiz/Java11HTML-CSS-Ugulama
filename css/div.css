@@ -1,0 +1,72 @@
+
+.container0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.div1{
+    border: 1px black solid ;
+    width: 250px;
+    height: 250px;
+    overflow:scroll
+}
+.div2{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.container1{
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    flex-direction: row; /* x eksenindeyim, satırlarla calisiyiorum*/
+    justify-content: space-between; /* x ekseninde çalışıyor/ Satırlar arasında boşluk veriyor/seriyor */
+    align-items: center; /*y ekseninde çalışır (ana eksen olmayan eksen ile çalışır)*/
+
+
+    flex-direction: column;/* y eksenindeyim, kolonlarla/sütun calisiyiorum*/
+    /* default row*/
+    justify-content: space-between;/* y ekseninde çaşışır*/
+    align-items: center;/* x ekseninde çalışır*/
+}
+
+.box{
+    border: 1px solid black;
+    height: 20px;
+    width: 20%;
+}
+
+.box.box1{
+    background-color: purple;
+}
+.box2{
+    background-color: orange;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: gray;
+}
+.box5{
+    background-color: brown;
+}
+.box1-child{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+

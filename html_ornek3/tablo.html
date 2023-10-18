@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo Ornek</title>
+    <style>
+        div{
+            background-color: bisque;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        td:hover{
+            background-color: antiquewhite;
+        }
+        th:hover{
+            color: blue;
+            transform: scale(0.9);
+            transition: 1200ms;
+        }
+        ul{
+            list-style: none;
+        }
+        button:hover{
+            font-style: italic;
+            background-color: cadetblue;
+        }
+        ul li{
+            display: inline;
+            font-size: 20px;
+            color: brown;
+            margin-right: 10px;
+        }
+        th,td{
+            border: 1px black solid;
+            padding: 10px;
+            text-align: center;
+            width: 100px;
+        }
+        th{
+            text-decoration: underline;
+            font-size: 20px;
+        }
+        td{
+            color: brown;
+        }
+        button{
+            background-color: dodgerblue;
+            color: azure;
+            padding: 15px 30px;
+            border-radius: 30px;
+        }
+        button:active{
+            color: brown;
+            background-color: bisque;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul >
+            <li>React</li>
+            <li>Java</li>
+            <li>.Net</li>
+            <li><a href ="https://www.w3schools.com/html/default.asp">Html</li></a>
+            <li ><a href ="https://www.w3schools.com/css/default.asp">CSS</a></li>
+        </ul>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>İsim</th>
+                <th>Soyisim</th>
+                <th>Yaş</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>Alperen</td>
+                <td>İkinci</td>
+                <td>27</td>
+                <td><button>Düzenle</button></td>
+            </tr>
+            <tr>
+                <td>Muhammet</td>
+                <td>Kaya</td>
+                <td>50</td>
+                <td><button>Düzenle</button></td>
+            </tr>
+            <tr>
+                <td>Mustafa</td>
+                <td>Öztürk</td>
+                <td>35</td>
+                <td><button>Düzenle</button></td>
+            </tr>
+        </body>
+
+
+    </table>
+    
+</body>
+</html>
