@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+    align-items: start;
 }
 
 .div1{
@@ -26,20 +26,18 @@
     height: 300px;
     display: flex;
     flex-direction: row; /* x eksenindeyim, satırlarla calisiyiorum*/
-    justify-content: space-between; /* x ekseninde çalışıyor/ Satırlar arasında boşluk veriyor/seriyor */
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* x ekseninde çalışıyor/ Satırlar arasında boşluk veriyor/seriyor */
     align-items: center; /*y ekseninde çalışır (ana eksen olmayan eksen ile çalışır)*/
+    margin-bottom: 20px;
 
-
-    flex-direction: column;/* y eksenindeyim, kolonlarla/sütun calisiyiorum*/
-    /* default row*/
-    justify-content: space-between;/* y ekseninde çaşışır*/
-    align-items: center;/* x ekseninde çalışır*/
+   
 }
 
 .box{
+    width: 49%;
     border: 1px solid black;
     height: 20px;
-    width: 20%;
 }
 
 .box.box1{
@@ -61,6 +59,72 @@
     background-color: blue;
     width: 50%;
     height: 100%;
+}
+
+.newbox{
+    border: 1px solid black;
+    height: 20px;
+    width: 30%;
+}
+
+
+.container2{
+    background-color:rgb(0, 110, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: center;
+    height: 400px;  
+    margin-bottom: 80px;  
+}
+
+.box6{
+    background-color: bisque;
+}
+
+.box7{
+    background-color:orangered;
+}
+
+.box8{
+    background-color:yellow;
+}
+.box9{
+    background-color:brown;
+}
+.box10{
+    background-color:greenyellow;
+}
+.box11{
+    background-color:orange;
+}
+.box12{
+    background-color:grey;
+}
+.box13{
+    background-color:lightskyblue;
+}
+
+.container3{
+    height: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    
+
+}
+
+.box14{
+    background-color: yellow;
+    flex:2;
+}
+.box15{
+    background-color: blue;
+    flex: 2;
+}
+.box16{
+    background-color: red;
+    flex: 3;
 }
 
 
