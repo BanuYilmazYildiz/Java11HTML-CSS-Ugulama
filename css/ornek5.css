@@ -110,8 +110,6 @@ header{
 
 
 footer{
-    background-color:azure;
-    height: 200px;
     display: flex;
     justify-content: space-between;
     padding: 35px;
